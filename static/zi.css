@@ -1,0 +1,32 @@
+@charset "utf-8";
+body { background:url(body_bg.jpg) no-repeat center top;}
+
+#ziContent { width:880px;padding-bottom:20px; margin:0 auto;}
+
+/*当前位置*/
+#CurPage { height:25px; line-height:25px; padding-right:50px; text-align:right; position:relative; overflow:hidden; color:#888!important;}
+#CurPage a { color:#888;}
+#CurPage a:hover { color:#00614b;}
+
+/*内容*/
+#ziCont { width:100%; margin:0 auto;}
+
+/*左侧*/
+#ziLeft { width:206px; float:left;}
+#ziLeft .Menu {  margin-bottom:20px;}
+#ziLeft .Menu .bg {width:200px; height:206px; background:url(/static/left_bg.png) no-repeat;}
+#ziLeft .Menu .Items { width:177px; padding-top:13px; margin:-206px auto 0 auto; }
+#ziLeft .Menu .Items .t { height:31px; margin-bottom:6px;color: #fff;font: normal 12px/160% Arial;  line-height:31px;"}
+#ziLeft .Menu .Items .t a{ height:31px; margin-bottom:6px;}
+#ziLeft .Menu .Items .item { height:29px; line-height:29px; padding-left:60px; margin-bottom:5px; background:url(left_menu_bg.png) no-repeat;}
+#ziLeft .Menu .Items .item span { color: #fff;}
+#ziLeft .Menu .Items .ot a { color:#555;}
+#ziLeft .Menu .Items .ot a:hover { color:#00765b;}
+#ziLeft .Menu .Items .cur a { color:#00765b;}
+#ziLeft .leftAds { width:179px; margin:0 auto 10px auto;}
+#ziLeft .leftAds img { display:block;}
+
+/*右侧*/
+
+
+
